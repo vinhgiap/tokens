@@ -1,0 +1,13 @@
+
+{
+  "name": "design-systems",
+  "version": "1.0.0",
+  "scripts": {
+    "build-style-dictionary": "rm -rf ./output/* && node build_component.js"
+  },
+
+  "dependencies": {
+    "style-dictionary": "^3.8.0",
+    "tinycolor2": "1.6.0"
+  }
+}
